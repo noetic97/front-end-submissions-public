@@ -85,12 +85,16 @@ The Comicvine API is overwhelmingly large with no easily defined keywords or gen
 ### Deliverables 7/24
 
 - Have data cleaned / scraped 
-   - for the most part we just need a small data set. If this sets you back too far it might make sense to just go with something small for now. We can build the rest of it out once we have something working 
+   - for the most part we just need a small data set. If this sets you back too far it might make sense to just go with something small for now. We can build the rest of it out once we have something working  
+   *Mostly done, but still needs a little work on nested Promise.all.
    
  - have back-end tests! 
    - mocha is the way to go for this! 
+   *Why Mocha?  Is Jest/Enzyme not appropriate?
  - have front-end styled and ready to go
    - once you have your small data-set it shouldn't be too difficult to get this going. 
+   * Still working on returning the initial set of comic cards, but have started on soe basic styling.*
  - Start testing. 
    - this is probably the hardest part. 
  - Have favorites table / endpoint built out. 
+   *Would love to pair on this*
